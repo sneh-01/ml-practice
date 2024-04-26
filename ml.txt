@@ -1,0 +1,21 @@
+
+iception_net = tf.keras.applications.InceptionV3()
+
+
+    tf.keras: TensorFlow's implementation of the Keras API, which is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, among other frameworks.
+
+    applications: This submodule of keras contains pre-trained models and model-building blocks that can be used for various tasks such as image classification, object detection, and more.
+
+    InceptionV3: Refers to a specific deep convolutional neural network (CNN) architecture developed by Google. The name "Inception" comes from the "Inception module," which is a key component of the architecture. InceptionV3 is known for its effectiveness in image recognition tasks.
+use for categorise image nnet dataset.
+
+    (): Instantiates the InceptionV3 model. By calling InceptionV3(), you create an instance of the InceptionV3 model with default settings, including pre-trained weights.
+
+
+
+
+----->>>.The line from PIL import Image imports the Image module from the Python Imaging Library (PIL), or more accurately, from its fork known as the Pillow library. Let's break down what this means:
+
+    PIL/Pillow Library:
+        PIL (Python Imaging Library) is a library in Python that adds support for opening, manipulating, and saving many different image file formats. It provides a versatile set of tools for working with images, such as resizing, rotating, cropping, and applying various filters.
+        Pillow is an actively maintained fork of PIL. It is essentially a drop-in replacement for PIL and provides the same functionality, with several enhancements and bug fixes. Pillow has become the de facto standard for working with images in Python.
